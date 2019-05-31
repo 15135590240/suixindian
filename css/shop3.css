@@ -1,0 +1,166 @@
+.box{
+    width: 7.5rem;
+    height: 0.88rem;
+    background:linear-gradient(to right,#ff3432,#ff7918);
+    background:-webkit-linear-gradient(to right,#ff3432,#ff7918);
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.tab{
+    width: 7.5rem;
+    height: 0.98rem;
+    background-color: #fff;
+    padding: 0 0.24rem;
+    border: 0.01rem solid #D7D7D7;
+    box-sizing: border-box;
+    position: fixed;
+    justify-content: space-around;
+    display: flex;
+    bottom: 0;
+    z-index: 1;
+}
+.tab .tubiao{
+    width: 0.9rem;
+    height: 0.98rem;
+    background-color:transparent;
+}
+.tab .tubiao a{
+    display: block;
+    width: 0.9rem;
+    height: 0.98rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tab .tubiao1 a{
+    color: #989898;
+}
+.tab .tubiao2 a{
+    color: #989898;
+}
+.tab .tubiao3 a{
+    color: #ff7918;
+}
+.tab .tubiao a i{
+    font-size: 0.4rem;
+}
+.tab .tubiao a span{
+    font-size: 0.18rem;
+}
+.nnr{
+    width: 7.5rem;
+    height: 5.19rem;
+    background-color: #fff;
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: 0.88rem;
+}
+.nnr .nnnr{
+    width: 7.02rem;
+    height: 5.19rem;
+    background-color: #fff;
+}
+.nnr .nnnr img{
+    width: 7.02rem;
+    height: 5.19rem;
+}
+.tj{
+    width: 7.5rem;
+    height: 0.8rem;
+    background-color: #fff;
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: 0.25rem;
+}
+.tj .tjj{
+    width: 7.02rem;
+    height: 0.8rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.tj .tjj .yuan{
+    width: 0.63rem;
+    height: 0.63rem;
+    background-color: red;
+    border-radius: 50%;
+}
+.tj .tjj .yuan .icon-zhoubiancantingcanpanfandianguogaixianxing{
+    font-size: 0.5rem;
+    color: #fff;
+    line-height: 0.63rem;
+    margin-left: 0.06rem;
+}
+.tj .tjj .mstj{
+    font-size: 0.36rem;
+    color: #5C5C5C;
+    font-weight: bold;
+    margin-left: 0.2rem;
+}
+.pjt{
+    width: 7.5rem;
+    height: 4.65rem;
+    background-color: #fff;
+    padding: 0 0 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.pjt .pjtt{
+    width: 2.61rem;
+    height: 4.65rem;
+    background: #fff;
+}
+.pjt .pjtt1{
+    width: 1.63rem;
+    height: 4.65rem;
+}
+.pjt .pjtt .ttt{
+    width: 2.61rem;
+    height: 3.08rem;
+    background-color:#fff;
+    border-radius:0.15rem; 
+}
+.pjt .pjtt .ttt img{
+    width: 2.61rem;
+    height: 3.08rem;
+}
+.pjt .pjtt .ttt .icon-gouwucheman{
+    font-size: 0.4rem;
+    color: #ff7918;
+    margin-left: 2rem;
+}
+.pjt .pjtt .ttz{
+    font-size: 0.3rem;
+    color: #787878;
+    margin-left: 0.1rem;
+}
+.pjt .pjtt .ttq{
+    font-size: 0.3rem;
+    color: #FF6E68;
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+    font-weight: bold;
+}
+.pjt .pjtt .ttq span{
+    font-size: 0.2rem;
+    color: #FF6E68;
+}
+.pjt .pjtt1 .tttt{
+    width: 1.63rem;
+    height: 3.08rem;
+    background-color: #fff;
+    border-top-left-radius: 0.15rem; 
+    border-bottom-left-radius: 0.15rem; 
+}
+.pjt .pjtt1 .tttt img{
+    width: 1.63rem;
+    height: 3.08rem;
+}

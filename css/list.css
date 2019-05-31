@@ -1,0 +1,158 @@
+.box{
+    width: 7.5rem;
+    height: 0.88rem;
+    background:linear-gradient(to right,#ff3432,#ff7918);
+    background:-webkit-linear-gradient(to right,#ff3432,#ff7918);
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.fl{
+    width: 7.5rem;
+    height: 0.88rem;
+    background-color: #fff;
+    margin-top: 0.88rem;
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+}
+.fl .flnk{
+    width: 7.02rem;
+    height: 0.88rem;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fl .flnk .flnkk{
+    width: 0.73rem;
+    height: 0.4rem;
+    background-color:#fff;
+}
+.fl .flnk .flnkk a{
+    font-size: 0.32rem;
+    color: #AEAEAE;
+} 
+.fl .flnk .flnkk1 a{
+    color: #FF5751;
+}
+.fl .flnk .flnkk1 .sk{
+    width: 0.38rem;
+    height: 0.06rem;
+    background-color: #FF5751;
+    border-radius: 0.1rem;
+    margin-top: 0.05rem;
+    margin-left: 0.15rem;
+}
+.nr{
+    width: 7.5rem;
+    height: 10rem;
+    background-color: #fff;
+    margin-top: 0.15rem;
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.nr .nrk{
+    width: 7.02rem;
+    height: 2.3rem;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 0 0.1rem 0.01rem #FDD4C5; 
+}
+.nr .nrk .tt{
+    width: 3.13rem;
+    height: 1.95rem;
+    background-color: pink;
+    border-radius: 0.15rem;
+    position: absolute;
+    top:0.18rem;
+    left: 0.18rem; 
+}
+.nr .nrk .tt img{
+    width: 3.13rem;
+    height: 1.95rem;
+}
+.nr .nrk .lb{
+    position: absolute;
+    top: 0.25rem;
+    left: 3.49rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #343434;
+}
+.nr .nrk .wd{
+    position: absolute;
+    top: 0.6rem;
+    left: 3.49rem;
+    font-size: 0.2rem;
+    color: #BCBCBC;
+}
+.nr .nrk .jq{
+    position: absolute;
+    top: 1.2rem;
+    left: 3.49rem;
+    font-size: 0.3rem;
+    color: #FF5751;
+}
+.nr .nrk .jq span{
+    color: #FF5751;
+    font-size: 0.2rem;
+}
+.nr .nrk .ys{
+    position: absolute;
+    bottom: 0.18rem;
+    left: 3.49rem;
+    font-size: 0.2rem;
+    color: #B8B8B8;
+}
+.nr .nrk .gwc img{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 0.08rem;
+}
+.tab{
+    width: 7.5rem;
+    height: 0.98rem;
+    background-color: #fff;
+    padding: 0 0.24rem;
+    border: 0.01rem solid #D7D7D7;
+    box-sizing: border-box;
+    position: fixed;
+    justify-content: space-around;
+    display: flex;
+    bottom: 0;
+}
+.tab .tubiao{
+    width: 0.9rem;
+    height: 0.98rem;
+    background-color:transparent;
+}
+.tab .tubiao a{
+    display: block;
+    width: 0.9rem;
+    height: 0.98rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tab .tubiao1 a{
+    color: #ff7918;
+}
+.tab .tubiao2 a{
+    color: #989898;
+}
+.tab .tubiao a i{
+    font-size: 0.4rem;
+}
+.tab .tubiao a span{
+    font-size: 0.18rem;
+}

@@ -1,0 +1,182 @@
+.box{
+    width: 7.5rem;
+    height: 0.88rem;
+    background:linear-gradient(to right,#ff3432,#ff7918);
+    background:-webkit-linear-gradient(to right,#ff3432,#ff7918);
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.bj{
+    width: 7.5rem;
+    height: 5.3rem;
+    background-color: #fff;
+    margin-top: 0.88rem;
+    overflow: hidden;
+    position: relative;
+}
+.bj img{
+    width: 7.5rem;
+    height: 12rem;
+    margin-top: -0.3rem;
+}
+.bj .bjk{
+    width: 6.99rem;
+    height: 3.35rem;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0.24rem;
+    box-shadow: 0 0 0.1rem 0.02rem #FDD4C5;
+}
+.bj  .bjk img{
+    width: 2rem;
+    height: 2rem;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -1.4rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 0 0.1rem 0.02rem #FDD4C5;
+}
+.bj  .bjk .ls{
+    font-size: 0.12rem;
+    color: #FF6940;
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+}
+.bj  .bjk .ky{
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #FF634A;
+    position: absolute;
+    left: 2.9rem;
+    top: 0.8rem;
+}
+.bj  .bjk .zh{
+    font-size: 0.2rem;;
+    color: #8F8F8F;
+    position: absolute;
+    left: 2.4rem;
+    top: 1.2rem;
+}
+.bj  .bjk .kk{
+    width: 6.99rem;
+    height: 1.34rem;
+    background-color: #fff;
+    border-top: 0.01rem solid #F8F8F8;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.bj  .bjk .kk .kkk{
+    width: 1rem;
+    height: 1.33rem;
+    background-color: #fff;
+}
+.bj  .bjk .kk .kkk a{
+    width: 1rem;
+    height: 1.33rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;   
+}
+.bj  .bjk .kk .kkk a i{
+    font-size: 0.6rem;
+    color: #FF693E;   
+}
+.bj  .bjk .kk .kkk a p{
+    font-size: 0.2rem;
+    color: #747474;
+}
+.bj  .bjk .kk .kkk a .icon-1{
+    font-size: 0.3rem;
+    color: #FF0000;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.bj  .bjk .kk .kkk a .icon-dingdanyiwancheng{
+    color: #CDCDCD;
+}
+.bj  .bjk .kk .kkk a p{
+    color: #CDCDCD;
+}
+.xz{
+    width: 7.5rem;
+    height: 5.47rem;
+    background-color: #fff;
+    padding: 0  0.24rem 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: 0.15rem;
+}
+.xz .yl{
+    width: 7.02rem;
+    height:0.87rem;
+    background-color: #fff;
+    border-bottom: 0.01rem solid #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.05rem;
+}
+.xz .yl .gr{
+    font-size: 0.3rem;
+    color:#7A7A7A;
+}
+.xz .yl .grr{
+    font-size: 0.2rem;
+    color:#7A7A7A;
+}
+.xz .yl .gr1{
+    font-size: 0.2rem;
+    color: #FF7551;
+}
+.tab{
+    width: 7.5rem;
+    height: 0.98rem;
+    background-color: #fff;
+    padding: 0 0.24rem;
+    border: 0.01rem solid #D7D7D7;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.tab .tubiao{
+    width: 0.9rem;
+    height: 0.98rem;
+    background-color:transparent;
+}
+.tab .tubiao a{
+    display: block;
+    width: 0.9rem;
+    height: 0.98rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tab .tubiao1 a{
+    color: #ff7918;
+}
+.tab .tubiao2 a{
+    color: #989898;
+}
+.tab .tubiao a i{
+    font-size: 0.4rem;
+}
+.tab .tubiao a span{
+    font-size: 0.18rem;
+}

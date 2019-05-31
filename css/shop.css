@@ -1,0 +1,235 @@
+.box{
+    width: 7.5rem;
+    height: 0.88rem;
+    background:linear-gradient(to right,#ff3432,#ff7918);
+    background:-webkit-linear-gradient(to right,#ff3432,#ff7918);
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.xz{
+    width: 7.5rem;
+    height: 1.2rem;
+    background-color: #fff;
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: 0.88rem;
+}
+.xz .xzn{
+    width: 7.02rem;
+    height: 1.2rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.xz .xzn .icon-xuanze{
+    font-size: 0.35rem;
+    color: #DCDCDC;
+}
+.xz .xzn span{
+    font-size: 0.36rem;
+    color: #7D7D7D;
+    margin-left: 0.1rem;
+}
+.xz .xzn .icon-lajitong{
+    font-size: 0.35rem;
+    color: #DCDCDC;
+    margin-left: 4.5rem;
+}
+.xz .xzn .qc{
+    font-size: 0.28rem;
+    color: #CBCBCB;
+}
+.gw{
+    width: 7.5rem;
+    height: 4.64rem;
+    background-color: #fff;
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0.15rem;
+}
+.gw .gww{
+    width: 7.02rem;
+    height: 2.12rem;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 0 0.1rem 0.01rem #FDD4C5; 
+}
+.gw .gww .icon-xuanze{
+    font-size: 0.35rem;
+    color: #FF5726;
+    position: absolute;
+    top:0.88rem;
+    left: 0.3rem;
+}
+.gw .gww1 .icon-xuanze{
+    color: #DCDCDC;
+}
+.gw .gww .gwwt{
+    width: 1.61rem;
+    height: 1.61rem;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.3rem;
+    left: 0.9rem;
+}
+.gw .gww .gwwt img{
+    width: 1.61rem;
+    height: 1.61rem;
+}
+.gw .gww .lb{
+    color: #7D7D7D;
+    font-size: 0.3rem;
+    position: absolute;
+    top:0.3rem;
+    left: 2.8rem;
+}
+.gw .gww .dj{
+    color: #C8C8C8;
+    font-size: 0.2rem;
+    position: absolute;
+    top:0.7rem;
+    left: 2.8rem;
+}
+.gw .gww .zj{
+    color: #FF5852;
+    font-size: 0.24rem;
+    position: absolute;
+    bottom: 0.3rem;
+    left: 2.8rem;
+}
+.gw .gww .zjj{
+    font-size: 0.32rem;
+}
+.gw .gww .icon-jian{
+    font-size: 0.3rem;
+    color: #FF5751;
+    position: absolute;
+    bottom: 0.18rem;
+    right: 0.9rem;
+}
+.gw .gww .zz{
+    font-size: 0.36rem;
+    color: #FF5751;
+    position: absolute;
+    bottom: 0.13rem;
+    right: 0.6rem;
+}
+.gw .gww .icon-jia{
+    font-size: 0.28rem;
+    color: #FF5751;
+    position: absolute;
+    bottom: 0.18rem;
+    right: 0.18rem;
+}
+.gw .gww .sc{
+    width: 1.5rem;
+    height: 2.12rem;
+    background-color: red;
+    position: absolute;
+    right: 0;
+}
+.gw .gww .sc .icon-lajitong{
+    font-size: 0.36rem;
+    line-height: 2.12rem;
+    text-align: center;
+    color: #fff;
+    margin-left: 0.57rem;
+}
+.tab{
+    width: 7.5rem;
+    height: 0.98rem;
+    background-color: #fff;
+    padding: 0 0.24rem;
+    border: 0.01rem solid #D7D7D7;
+    box-sizing: border-box;
+    position: fixed;
+    justify-content: space-around;
+    display: flex;
+    bottom: 0;
+}
+.tab .tubiao{
+    width: 0.9rem;
+    height: 0.98rem;
+    background-color:transparent;
+}
+.tab .tubiao a{
+    display: block;
+    width: 0.9rem;
+    height: 0.98rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tab .tubiao1 a{
+    color: #989898;
+}
+.tab .tubiao2 a{
+    color: #989898;
+}
+.tab .tubiao3 a{
+    color: #ff7918;
+}
+.tab .tubiao a i{
+    font-size: 0.4rem;
+}
+.tab .tubiao a span{
+    font-size: 0.18rem;
+}
+.tab .tubiao .icon-1{
+    font-size: 0.28rem;
+    color: #FF0000;
+    position: absolute;
+    top: 0;
+    right: 2.52rem;
+}
+.fk{
+    width: 7.5rem;
+    height: 0.98rem;
+    background-color: #fff;
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0.98rem;
+}
+.fk .fkk{
+    width: 7.02rem;
+    height: 0.98rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.fk .fkk .fkk3{
+    width: 2.9rem;
+    height: 0.85rem;
+    background: linear-gradient(to right, #FF3632, #FF731A);
+    background:-webkit-linear-gradient(to right, #FF3632, #FF731A);
+    border-radius: 0.6rem;
+    margin-left: 2rem;
+    color: #fff;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.85rem;
+    font-weight: bold;
+}
+.fk .fkk .fkk3 a{
+    color: #fff;
+}
+.fk .fkk .fkk1{
+    font-size: 0.28rem;
+    color: #FF4A49;
+}
+.fk .fkk .fkk2{
+    font-size: 0.36rem;
+    color: #FF4A49;
+    font-weight: bold;
+}
